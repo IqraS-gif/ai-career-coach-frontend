@@ -1,6 +1,6 @@
 // frontend/script/optimizer.js
 
-const API_BASE_URL = "http://127.0.0.1:8000"; // Ensure this matches your FastAPI server address
+const API_BASE_URL = 'https://ai-career-coach-backend-3.onrender.com'; // Ensure this matches your FastAPI server address
 
 // Get references to all the HTML elements on this page
 const fileInput = document.getElementById("resume_file");

@@ -1,5 +1,14 @@
+//
+// ----------------- ACTION REQUIRED -----------------
+// Replace the placeholder URL below with your actual live Render backend URL
+const API_BASE_URL = 'https://ai-career-coach-backend-3.onrender.com';
+// Example: const API_BASE_URL = 'https://ai-coach-backend-xyz.onrender.com';
+// ----------------------------------------------------
+//
+
 document.addEventListener('DOMContentLoaded', () => {
-    const API_URL = 'http://127.0.0.1:8000/api/interview';
+    // This now correctly uses the base URL defined above
+    const API_URL = `${API_BASE_URL}/api/interview`;
 
     // Views
     const level1Card = document.getElementById('level-1-card');

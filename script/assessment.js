@@ -1,6 +1,6 @@
 // frontend/script/assessment.js
 
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = 'https://ai-career-coach-backend-3.onrender.com';
 
 let currentUser = null;
 let assessmentQuestions = [];

@@ -1,6 +1,6 @@
 // frontend/script/home.js
 
-const API_BASE_URL = 'http://127.0.0.1:8000'; 
+const API_BASE_URL = 'https://ai-career-coach-backend-3.onrender.com';
 
 // Declare global variables with 'let' or without initial assignment.
 // They will be assigned their DOM element references *inside* onUserLoggedIn/DOMContentLoaded.
